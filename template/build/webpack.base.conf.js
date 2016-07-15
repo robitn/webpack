@@ -1,6 +1,7 @@
 var path = require('path')
 var config = require('../config')
 var utils = require('./utils')
+var autoprefixer = require('autoprefixer')
 var projectRoot = path.resolve(__dirname, '../')
 
 module.exports = {
